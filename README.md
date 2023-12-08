@@ -1,13 +1,14 @@
 # usertest
-This is a repository for testing user creation, session initiation and management, JWT, and localStorage.
+Este es un repositorio para probar la creación de usuarios, inicio y gestión de sesiones, JWT y localStorage.
 
-## Instructions:
+## Instrucciones:
 
-1. Run `npm i` in the `back` and `front` folders.
-2. Create a PostgreSQL database named `usertest`.
-3. Check the `.env` file and replace the PostgreSQL username and password with your own to connect to the database.
-4. Run `npm start` in the `back` folder.
-5. Run `npm run dev` in the `front` folder.
-6. Open the application in a web browser and create an account.
-7. Log in with that account.
-8. Open the developer tools, go to the 'Application' tab, and look for 'localStorage'. Confirm that you have the JWT token.
+1. Ejecuta `npm i` en las carpetas `back` y `front`.
+2. Crea una base de datos PostgreSQL llamada `usertest`.
+3. Verifica el archivo `.env` y reemplaza el nombre de usuario y la contraseña de PostgreSQL con los tuyos para conectar a la base de datos.
+4. Ejecuta `npm start` en la carpeta `back`.
+5. Ejecuta `npm run dev` en la carpeta `front`.
+6. Abre la aplicación en un navegador web y crea una cuenta.
+7. Inicia sesión con esa cuenta.
+8. Abre las herramientas de desarrollador, ve a la pestaña 'Application' y busca 'localStorage'. Confirma que tienes el token JWT.
+
